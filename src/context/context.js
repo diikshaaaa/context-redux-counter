@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { useContext } from 'react';
 const CountContext = React.createContext();
 
 function countReducer(state, action) {
